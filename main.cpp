@@ -3,7 +3,7 @@
 bool main()
 {
   Graph graph;
-  unsinged int vertex = 0, 
+  unsigned int vertex = 0, 
     path = 0;
   cin >> graph;
   cout << graph << "\n" << "Введите номер вершины, что вы желаете проверить: ";
