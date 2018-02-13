@@ -10,6 +10,7 @@ bool main()
   cin << vetrex;
   cout << "Введите расстояние, которое следует пройти к этой вершине: ";
   cin << path;
+  CheckDistance(graph, path, vertex);
   system("pause");
   return false;
 }
